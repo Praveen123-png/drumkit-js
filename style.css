@@ -1,0 +1,43 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.keys{
+    display: flex;
+}
+
+.key{
+    border: 1px solid white;
+    padding: 1rem;
+    text-align: center;
+    height: 4rem;
+    width: 4rem;
+    margin: .8rem;
+    transition: all 0.07s;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 0 0 10px yellow;
+}
+
+kbd{
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: .5rem;
+}
+
+.sound{
+    font-size: .8rem;
+    color: yellow;
+}
